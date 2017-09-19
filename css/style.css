@@ -113,23 +113,31 @@ br
 	.update{
 		font-size: 2vw;
 	}
+
+	.footer{
+		font-size: 1vw;
+	}
 }
 
 @media (max-width: 767px){
 	.name{
-		font-size: 6vw;
+		font-size: 7vw;
 	}
 
 	.linkBox{
-		font-size: 3.75vw;
+		font-size: 4vw;
 	}
 
 	.status{
-		font-size: 4vw;
+		font-size: 4.5vw;
 	}
 	
 	.update{
-		font-size: 4vw;
+		font-size: 4.5vw;
+	}
+
+	.footer{
+		font-size: 3vw;
 	}
 }
 
