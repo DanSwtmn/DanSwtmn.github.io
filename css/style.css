@@ -65,7 +65,7 @@ br
 .name
 {
 	color: #888888;
-	font-family: 'Josefin Slab', serif;
+	font-family: 'Scope One', serif;
 	text-decoration: none;
 	white-space: nowrap;
 
@@ -74,7 +74,7 @@ br
 .linkBox
 {
 	color: #777777;
-	font-family: 'Josefin Slab', serif;
+	font-family: 'Scope One', serif;
 	white-space: nowrap;
 }
 
@@ -86,7 +86,7 @@ br
 	height:30px;
 	width:100%;
 	color: #777777;
-	font-family: 'Josefin Slab', serif;
+	font-family: 'Scope One', serif;
 }
 
 .update
@@ -96,7 +96,7 @@ br
 	height:30px;
 	width:100%;
 	color: #777777;
-	font-family: 'Josefin Slab', serif;
+	font-family: 'Scope One', serif;
 }
 
 @media (min-width: 768px){
@@ -127,7 +127,7 @@ br
 	}
 
 	.linkBox{
-		font-size: 4vw;
+		font-size: 3vw;
 	}
 
 	.status{
@@ -144,5 +144,5 @@ br
 }
 
 @font-face {
-	font-family: 'Josefin Slab', serif;
+	font-family: 'Scope One', serif;
 }
