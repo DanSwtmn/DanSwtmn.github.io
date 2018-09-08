@@ -39,6 +39,6 @@ document.addEventListener('keydown', function(e) {
 
 
 function activateCheats() {
-  var memes = ["https://www.youtube.com/watch?v=dQw4w9WgXcQ", "https://youtu.be/L_jWHffIx5E?t=35", "https://www.youtube.com/watch?v=jofNR_WkoCE" , "https://www.youtube.com/watch?v=ZZ5LpwO-An4", "https://www.youtube.com/watch?v=U9t-slLl30E"]
+  var memes = ["https://www.youtube.com/watch?v=dQw4w9WgXcQ", "https://youtu.be/L_jWHffIx5E?t=35", "https://www.youtube.com/watch?v=jofNR_WkoCE" , "https://www.youtube.com/watch?v=ZZ5LpwO-An4", "https://www.youtube.com/watch?v=U9t-slLl30E","https://www.youtube.com/watch?v=0tdyU_gW6WE&t=99s"]
   window.location = memes[Math.floor(Math.random() * memes.length)];
 }
