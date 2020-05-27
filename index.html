@@ -1,46 +1,38 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,s initial-scale=1.0">
-<html>
-<head>
-	<title>Dan Sweetman</title>
-	<link rel = "stylesheet" type = "text/css" href = "css/style.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Scope+One" rel="stylesheet">
-	<link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-	<div class="header"></div>
-	<script src="js/konami.js"></script>
-	<div class="content">
-		<div class="animated fadeIn slower delay-5s ">
-			<div class="name">
-				Dan Sweetman
-			</div>
-			<div class="update">
-				<script>
-					var update = ["Software Engineer","Swift Enthusiast", "iOS Dev", "WatchKit Dev", "React JS Dev", "I make the magic happen!"];
-					var inst = setInterval(change, 3000);
-					function change() {
-						document.getElementById("ran-update").innerHTML =
-						update[Math.floor(Math.random() * update.length)];
-					}
-				</script>
-				<p id="ran-update">Software Engineer</p>
-			</div>
-			<div class="linkBox">
-				<a class="underline" href="https://github.com/DanSwtmn"><i class="fa fa-github" aria-hidden="false"></i></a>
-				<a class="underline" href="./res/resume.pdf"><i class="fa fa-file-text-o" aria-hidden="true"></i></a>
-				<a class="underline" href="https://www.linkedin.com/in/danswtmn"><i class="fa fa-linkedin-square" aria-hidden="true"></i> </a>
-				<a class="underline" href="mailto:contact@dansweetman.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> </a>
+<html lang="en">
+	<head>
+		<title>Dan Sweetman</title>
+		<link rel = "stylesheet" type = "text/css" href = "css/style.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Scope+One" rel="stylesheet">
+		<link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<div class="header"></div>
+		<script src="js/konami.js"></script>
+		<div class="content">
+			<div class="animated fadeIn slower delay-5s ">
+				<div class="name">
+					Dan Sweetman
+				</div>
+				<div class="update">
+					<script src="js/titles.js"></script>
+					<p id="ran-update">Software Engineer</p>
+				</div>
+				<div class="linkBox">
+					<a class="underline" href="https://github.com/DanSwtmn" title="Go to my github page"><i class="fa fa-github" aria-hidden="false" alt="Github" ></i></a>
+					<a class="underline" href="./res/resume.pdf" title="Look at my resume"><i class="fa fa-file-text-o" aria-hidden="true" alt="Resume" ></i></a>
+					<a class="underline" href="https://www.linkedin.com/in/danswtmn" title="Go to my LinkedIn page"><i class="fa fa-linkedin-square" aria-hidden="true" alt="LinkedIn" ></i> </a>
+					<a class="underline" href="mailto:contact@dansweetman.com" title="Email me here!"><i class="fa fa-envelope-o" aria-hidden="true"alt="Mail to" ></i> </a>
+				</div>
 			</div>
 		</div>
-	</div>
-</div>
-<div class="footer">
-	<p class="copyright">&copy; Dan Sweetman</p>
-</div>
-</body>
+		<div class="footer">
+			<p class="copyright">&copy; Dan Sweetman</p>
+		</div>
+	</body>
+</html>
 <!-- Thank you Daniel Eden for Animate.css https://github.com/daneden/animate.css -->
 <!-- Also if you found this you can easily figure out the secret I put onto this page -->
-</html>
