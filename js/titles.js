@@ -1,5 +1,5 @@
-var update = ["Software Engineer","Swift Enthusiast", "iOS Dev", "WatchKit Dev", "React JS Dev", "I make the magic happen!"];
-var  last = 0;
+var update = ["Software Engineer", "Swift Enthusiast", "iOS Dev", "WatchKit Dev", "React JS Dev", "I make the magic happen!"];
+var last = 0;
 function change(last, next) {
     if (next !== last) {
         self.last = next;
@@ -9,4 +9,4 @@ function change(last, next) {
     }
 }
 
-setInterval(function() {change(last, Math.floor(Math.random() * update.length))}, 2500);
+setInterval(function () { change(last, Math.floor(Math.random() * update.length)) }, 2500);
