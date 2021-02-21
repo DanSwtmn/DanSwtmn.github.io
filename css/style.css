@@ -21,7 +21,7 @@ br {
 
 .icon {
 	filter: invert(59%) sepia(0%) saturate(1261%) hue-rotate(251deg) brightness(79%) contrast(97%);
-	
+	padding: 5px;
 }
 
 .underline {
