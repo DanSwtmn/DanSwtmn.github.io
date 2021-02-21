@@ -19,7 +19,14 @@ br {
 	line-height: 65%;
 }
 
+.icon {
+	filter: invert(59%) sepia(0%) saturate(1261%) hue-rotate(251deg) brightness(79%) contrast(97%);
+	
+}
+
 .underline {
+	display: flex;
+	justify-content: center;
 	position: relative;
 	color: #777777;
 	text-decoration: none;
@@ -82,8 +89,9 @@ br {
 		font-size: 4vw;
 	}
 
-	.linkBox {
-		font-size: 1.75vw;
+	.icon {
+		height: 1.75vw;
+		width: 1.75vw;
 	}
 
 	.status {
@@ -104,8 +112,9 @@ br {
 		font-size: 9vw;
 	}
 
-	.linkBox {
-		font-size: 3vw;
+	.icon {
+		height: 3vw;
+		width: 3vw;
 	}
 
 	.status {
@@ -123,4 +132,5 @@ br {
 
 @font-face {
 	font-family: 'Scope One', serif;
+	src: inherit;
 }

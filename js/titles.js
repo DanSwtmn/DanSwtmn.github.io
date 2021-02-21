@@ -1,4 +1,4 @@
-const update = ["Software Engineer", "Swift Enthusiast", "iOS Dev", "WatchKit Dev", "React JS Dev", "I make the magic happen!"];
+const update = ["Software Engineer", "Swift Enthusiast", "iOS Dev", "React JS Dev", "I make the magic happen!"];
 let currentTitle = 0;
 function changeTitle(lastTitle, nextTitle) {
     if (nextTitle !== lastTitle) {

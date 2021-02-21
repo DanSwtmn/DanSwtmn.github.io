@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,s initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <html lang="en">
 	<head>
 		<title>Dan Sweetman</title>
@@ -8,31 +8,44 @@
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
 		<link href="https://fonts.googleapis.com/css?family=Scope+One" rel="stylesheet">
 		<link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+		
+		<link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon_io/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon_io/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon_io/favicon-16x16.png">
+		<link rel="manifest" href="./assets/favicon_io/site.webmanifest">
 	</head>
 	<body>
 		<div class="header"></div>
-		<script src="js/konami.js"></script>
 		<div class="content">
 			<div class="animated fadeIn slower delay-5s">
 				<div class="name">
 					Dan Sweetman
 				</div>
 				<div class="update">
-					<script src="js/titles.js"></script>
 					<p id="ran-update">Software Engineer</p>
 				</div>
 				<div class="linkBox">
-					<a class="underline" href="https://github.com/DanSwtmn" title="Go to my github page"><i class="fa fa-github" aria-hidden="false" alt="Github" ></i></a>
-					<a class="underline" href="./res/resume.pdf" title="Look at my resume"><i class="fa fa-file-text-o" aria-hidden="true" alt="Resume" ></i></a>
-					<a class="underline" href="https://www.linkedin.com/in/danswtmn" title="Go to my LinkedIn page"><i class="fa fa-linkedin-square" aria-hidden="true" alt="LinkedIn" ></i> </a>
-					<a class="underline" href="mailto:contact@dansweetman.com" title="Email me here!"><i class="fa fa-envelope-o" aria-hidden="true"alt="Mail to" ></i> </a>
+					<a class="underline" href="https://github.com/DanSwtmn" title="Go to my github page"><div id="github" class="icon" aria-hidden="true"></div></a>
+					<a class="underline" href="https://twitter.com/DanSwtmn" title="Follow me on Twitter"><div id="twitter" class="icon" aria-hidden="true"></div></a>
+					<a class="underline" href="./assets/resume.pdf" title="Look at my resume"><div id="file" class="icon"></div></a>
+					<a class="underline" href="https://www.linkedin.com/in/danswtmn" title="Go to my LinkedIn page"><div id="linkedin" class="icon" aria-hidden="true"></div></a>
+					<a class="underline" href="mailto:contact@dansweetman.com" title="Email me here!"><div id="mail" class="icon" aria-hidden="true"></div></a>
 				</div>
 			</div>
 		</div>
 		<div class="footer">
 			<p class="copyright">&copy; Dan Sweetman</p>
 		</div>
+
+		<!-- Script(s)-->
+		<script src="js/konami.js"></script>
+		<script src="js/titles.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.6/lottie.min.js"></script>
+		<script src="js/animations.js"></script>
 	</body>
 </html>
+
 <!-- Thank you Daniel Eden for Animate.css https://github.com/daneden/animate.css -->
+<!-- Favicon generated with https://favicon.io -->
+<!-- Icons by useAnimations https://useanimations.com/ -->
 <!-- Also if you found this you can easily figure out the secret I put onto this page -->
